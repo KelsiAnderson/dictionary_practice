@@ -37,7 +37,15 @@ def word_count_dict(file):
             print(word)
     
             word_count[word] = word_count.get(word, 0) + 1
-    print(word_count)
+    #print(word_count)
+
+    print(word_count.keys())
+    for key, value in word_count.items():
+        print(key, value)
 
 word_count_dict(text_file)
     
+
+
+
+
